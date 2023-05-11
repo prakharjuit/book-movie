@@ -1,0 +1,44 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,400&family=Ubuntu:wght@300&family=Varela+Round&display=swap');
+
+.Movieforms {
+    background: rgb(24,49,59);
+    background: radial-gradient(circle, rgba(24,49,59,0.9136904761904762) 34%, rgba(121,9,49,0.7456232492997199) 99%, rgba(0,212,255,1) 100%);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    color: #fff;
+    max-width: 500px;
+    margin: 0 auto;
+    font-family: 'Ubuntu',sans-serif;
+    
+  }
+  
+  .Movieforms label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+
+  
+  .Movieforms button {
+    background-color: #fff;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin-top: 10px;
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+  
+  .Movieforms-container button:hover {
+    background-color: #333;
+    color: #3b3838;
+    transition: all 0.3s ease-in-out;
+  }
+  
